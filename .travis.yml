@@ -1,13 +1,23 @@
+language: objective-c
+osx_image: xcode7.0
 sudo: false
 
-language: node_js
-node_js:
-    - "4.1.1"
-
-cache:
-  directories:
-    - node_modules
-
+before_install:
+    - alias brew=echo
+    - alias npm=echo
+    - alias cp=echo
+    - brew unlink node
+    - brew install node@4
+    - brew link node@4 --force
+    - brew install --ignore-dependencies wine
+    - brew install github-release
+    - brew install mono
+    - brew install fakeroot
+    - brew install dpkg
+    - npm install
+    
 script:
-  - npm install
-  - npm test
+    - cd node_modules
+    - npm test
+    - npm run integration
+    - npm run release
