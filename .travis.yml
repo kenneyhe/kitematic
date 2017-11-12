@@ -26,4 +26,5 @@ script:
     #- npm run integration
 
 after_success:
+    - coveralls --rcfile=.coveragerc
     - npm run release
