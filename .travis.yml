@@ -19,6 +19,7 @@ before_install:
     - npm update
     
 script:
+    - for package in $(npm -g outdated --parseable --depth=0 | cut -d: -f2) do npm -g install "$package" done
     - cd node_modules
     - npm test
     - npm run integration
