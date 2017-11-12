@@ -3,13 +3,12 @@
 
 [![Build Status](https://travis-ci.org/kenneyhe/kitematic.svg?branch=master)](https://travis-ci.org/kenneyhe/kitematic)
 <a href="https://codeclimate.com/github/kenneyhe/kitematic/test_coverage"><img src="https://api.codeclimate.com/v1/badges/e049b3c2d162bb9f47d9/test_coverage" /></a>
-
+[![Dependency Status](https://david-dm.org/kenneyhe/kitematic.svg?theme=shields.io)](https://david-dm.org/kenneyhe/kitematic)
+[![devDependency Status](https://david-dm.org/kenneyhe/kitematic/dev-status.svg?theme=shields.io)](https://david-dm.org/kenneyhe/kitematic#info=devDependencies)
 
 [![Kitematic Logo](https://cloud.githubusercontent.com/assets/251292/5269258/1b229c3c-7a2f-11e4-96f1-e7baf3c86d73.png)](https://kitematic.com)
 
-[![Dependency Status](https://david-dm.org/kenneyhe/kitematic.svg?theme=shields.io)](https://david-dm.org/kenneyhe/kitematic)
 
-[![devDependency Status](https://david-dm.org/kenneyhe/kitematic/dev-status.svg?theme=shields.io)](https://david-dm.org/kenneyhe/kitematic#info=devDependencies)
 
 Kitematic is a simple application for managing Docker containers on Mac, Linux and Windows.
 
