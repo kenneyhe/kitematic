@@ -16,14 +16,15 @@ before_install:
     - brew install mono
     - brew install fakeroot
     - brew install dpkg
+    - brew install coveralls
     - npm install
     - npm update
     
 script:
     - "npm -gp outdated | cut -d: -f4 | xargs -n1 npm -g install"
     - cd node_modules
-    #- npm test
-    #- npm run integration
+    - npm test
+    - npm run integration
 
 after_success:
     - coveralls --rcfile=.coveragerc
