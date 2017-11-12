@@ -27,5 +27,6 @@ script:
     - npm run integration
 
 after_success:
-    - npm run coveralls
+    - npm install coveralls.io
+    - node-coveralls
     - npm run release
