@@ -1,4 +1,6 @@
-[![Build Status](https://travis-ci.org/docker/kitematic.svg?branch=master)](https://travis-ci.org/docker/kitematic)
+CI, codeclimate badges 
+[![Build Status](https://travis-ci.org/kenneyhe/kitematic.svg?branch=master)](https://travis-ci.org/kenneyhe/kitematic)
+<a href="https://codeclimate.com/github/kenneyhe/kitematic/test_coverage"><img src="https://api.codeclimate.com/v1/badges/e049b3c2d162bb9f47d9/test_coverage" /></a>
 
 
 [![Kitematic Logo](https://cloud.githubusercontent.com/assets/251292/5269258/1b229c3c-7a2f-11e4-96f1-e7baf3c86d73.png)](https://kitematic.com)
