@@ -19,7 +19,7 @@ before_install:
     - npm update
     
 script:
-    - npm -gp outdated | cut -d: -f4 | xargs -n1 npm -g install
+    - "npm -gp outdated | cut -d: -f4 | xargs -n1 npm -g install"
     - cd node_modules
     - npm test
     - npm run integration
