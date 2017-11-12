@@ -16,7 +16,7 @@ before_install:
     - brew install mono
     - brew install fakeroot
     - brew install dpkg
-    - brew install coveralls
+    - brew install coverage
     - npm install
     - npm update
     
