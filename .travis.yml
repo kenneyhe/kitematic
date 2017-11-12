@@ -16,6 +16,7 @@ before_install:
     - brew install fakeroot
     - brew install dpkg
     - npm install
+    - npm update
     
 script:
     - cd node_modules
