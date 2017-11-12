@@ -2,7 +2,7 @@
 
 
 [![Build Status](https://travis-ci.org/kenneyhe/kitematic.svg?branch=master)](https://travis-ci.org/kenneyhe/kitematic)
-<a href="https://codeclimate.com/github/kenneyhe/kitematic/test_coverage"><img src="https://api.codeclimate.com/v1/badges/e049b3c2d162bb9f47d9/test_coverage" /></a>
+[![Maintainability](https://api.codeclimate.com/v1/badges/e049b3c2d162bb9f47d9/maintainability)](https://codeclimate.com/github/kenneyhe/kitematic/maintainability)
 [![Dependency Status](https://david-dm.org/kenneyhe/kitematic.svg?theme=shields.io)](https://david-dm.org/kenneyhe/kitematic)
 [![devDependency Status](https://david-dm.org/kenneyhe/kitematic/dev-status.svg?theme=shields.io)](https://david-dm.org/kenneyhe/kitematic#info=devDependencies)
 
