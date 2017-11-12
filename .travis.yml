@@ -7,6 +7,7 @@ before_install:
     - alias brew=echo
     - alias npm=echo
     - alias cp=echo
+    - COVERALLS_REPO_TOKEN=${repo_token}
     - brew update
     - brew unlink node
     - brew install node@4
@@ -16,7 +17,6 @@ before_install:
     - brew install mono
     - brew install fakeroot
     - brew install dpkg
-    - pip install coverage
     - npm install
     - npm update
     
@@ -27,5 +27,5 @@ script:
     - npm run integration
 
 after_success:
-    - coveralls --rcfile=.coveragerc
+    - npm run coveralls
     - npm run release
