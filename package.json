@@ -35,6 +35,8 @@
     "deep-extend": "^0.5.0",
     "dockerode": "^2.2.10",
     "install": "^0.10.1",
+    "jest" : "21.2.1",
+    "jest-cli" : "21.2.1",
     "jquery": "^3.2.1",
     "JSONStream": "^1.0.7",
     "mixpanel": "kitematic/mixpanel-node",
