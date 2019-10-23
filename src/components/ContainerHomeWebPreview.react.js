@@ -7,7 +7,7 @@ var ContainerHomeWebPreview = React.createClass({
     metrics.track('Opened In Browser', {
       from: 'preview'
     });
-    shell.openExternal('http://' + this.props.ports[this.props.defaultPort].url);
+    shell.openExternal('https://' + this.props.ports[this.props.defaultPort].url);
   },
 
   handleClickPortSettings: function () {
